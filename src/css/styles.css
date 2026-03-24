@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #23252C;
+    font-family: "Inter", sans-serif;
+}
+
+.profile-image {
+    width: 317px;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+}
+
+.info{
+    background-color: #F5F5F5;
+    width: 317px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.buttons button{
+    width: 115px;
+    height: 34px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.buttons button:hover{
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+}
+
+.in{
+    background-color: #297FE5;
+    color: white;
+    border-style: none;
+}
+
+.email{
+    border: 1px solid #D1D5DB;
+}
+
+
+.info-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info h1, h2{
+    margin: 0;
+    padding: 0;
+}
+
+.name{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.title{
+    font-size: 0.8rem;
+    color: #F47D27;
+}
+
+.about-skills{
+    margin: 20px;
+    margin-top: 10px;
+}
+
+.about-skills h2{
+    font-size: 1rem;
+}
+
+.about-skills p{
+    font-size: 0.8rem;
+    text-align: justify;
+    color: #4A4E74;
+}
+
+.main-footer{
+    width: 317px;
+    height: 64px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #D5D4D8;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-footer button{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D1D5DB;
+    background-color: transparent;
+    color: #23252C;
+    transition: color 0.3s ease;
+}
+
+.main-footer button:hover{
+    color: #F47D27;
+}
+
+.app-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
