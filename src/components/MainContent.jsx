@@ -27,7 +27,7 @@ export default function MainContent() {
                     <h2 className="about">About</h2>
                     <p>I am a frontend developer focused on crafting scalable, user-centric web applications. Combining technical expertise in virtual simulations with a strong foundation in Full Stack development to deliver innovative digital solutions..</p>
 
-                    <h2>Skills</h2>
+                    <h2>Skills</h2> 
                     <p>I specialize in bridging React development with immersive 3D experiences using Three.js. My toolkit combines high-performance frontend interfaces with a Full Stack foundation and a strong commitment to web accessibility and social inclusion.</p>
                 </div>
             </section>
