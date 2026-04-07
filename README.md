@@ -1,18 +1,112 @@
-# React + Vite
+# 💼 Tarjeta de Presentación Digital
 
-link to the web: https://xpedrojfloresx.github.io/Digital-Business-Card/
+Una tarjeta de presentación digital, responsiva e interactiva construida con **React**, diseñada para reemplazar las tarjetas de papel tradicionales con una experiencia web moderna.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Demo en vivo → [Ver Tarjeta](https://xpedrojfloresx.github.io/Digital-Business-Card) 
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Funcionalidades
 
-## React Compiler
+- Diseño limpio y minimalista con información personal
+- Links a redes sociales y plataformas profesionales (LinkedIn, GitHub, Twitter, etc.)
+- Botón de contacto / email
+- Totalmente responsiva — funciona en móvil y escritorio
+- Construida con arquitectura de componentes React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Stack Tecnológico
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Tecnología | Uso |
+|---|---|
+| React | Framework de UI |
+| CSS / CSS Modules | Estilos |
+| React Icons | Librería de íconos |
+| Create React App | Scaffolding del proyecto |
+
+---
+
+## 🚀 Cómo Empezar
+
+### Requisitos
+
+- Node.js ≥ 16
+- npm o yarn
+
+### Instalación
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/xpedrojfloresx/Digital-Business-Card.git
+
+# Entrar al proyecto
+cd Digital-Business-Card
+
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
+npm start
+```
+
+Abrí [http://localhost:3000](http://localhost:3000) en tu navegador.
+
+---
+
+## 📦 Build para Producción
+
+```bash
+npm run build
+```
+
+El resultado estará en la carpeta `/build`, listo para desplegar.
+
+---
+
+## 🌐 Despliegue
+
+Este proyecto puede desplegarse en:
+
+- **GitHub Pages** — `npm run deploy` (requiere el paquete `gh-pages`)
+- **Netlify** — arrastrá y soltá la carpeta `/build`
+- **Vercel** — conectá el repo y desplegá automáticamente
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+Digital-Business-Card/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── MainContent.jsx        # Componente principal de la tarjeta
+        └── Footer.jsx  
+│   ├── App.jsx
+│   ├── Main.jsx
+│   └── index.css
+├── package.json
+└── README.md
+```
+
+---
+
+## 🎯 Sobre el Proyecto
+
+Este proyecto fue construido como **proyecto individual** del [Scrimba Frontend Developer Career Path](https://scrimba.com/). El objetivo fue practicar los fundamentos de React: estructura de componentes, props y JSX.
+
+---
+
+## 👤 Autor
+
+**Pedro J. Flores**
+- GitHub: [@xpedrojfloresx](https://github.com/xpedrojfloresx)
+- LinkedIn: [*Pedro Flores*](https://www.linkedin.com/in/pedro-flores-dev/)
+
+---
+
+## 📄 Licencia
+
+Este proyecto es de código abierto y está disponible bajo la [Licencia MIT](LICENSE).
